@@ -4,7 +4,8 @@
 # Email: manueds@outlook.pt
 # GitHub: https://github.com/nuelst
 # LinkedIn: https://linkedin.com/in/nuelst
-# Usage: sudo ./fix-disk.sh
+# Usage: sudo fixpart
+#        sudo ./fixpart.sh (if not installed as package)
 
 # Colors for output
 RED='\033[0;31m'
