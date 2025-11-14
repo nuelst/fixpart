@@ -1,0 +1,8 @@
+#!/bin/bash
+# Pre-removal script for fixpart package
+
+set -e
+
+# Nothing special needed before removal
+exit 0
+
