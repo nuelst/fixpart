@@ -1,0 +1,21 @@
+Package: fixpart
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: bash (>= 4.0), util-linux, coreutils
+Recommends: ntfs-3g, exfat-fuse, exfatprogs
+Maintainer: Manuel dos Santos <manueds@outlook.pt>
+Description: Automatic partition repair tool for Linux
+ FixPart is an intelligent bash script that automatically repairs
+ corrupted partitions on Ubuntu/Linux systems. It supports multiple
+ filesystem types including NTFS, EXT2/3/4, exFAT, and FAT32.
+ .
+ Features:
+  - Automatic filesystem type detection
+  - Intelligent repair based on partition type
+  - Colorful and user-friendly interface
+  - Automatic dependency installation
+  - Safe unmounting before repair
+  - Optional automatic mounting after repair
+
