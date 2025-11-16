@@ -1,4 +1,4 @@
-# 🔧 Fix Disk - Automatic Partition Repair Script
+# 🔧 FixPart - Automatic Partition Repair Script
 
 An intelligent bash script to automatically repair corrupted partitions on Ubuntu/Linux systems, with support for multiple filesystem types.
 
@@ -48,19 +48,19 @@ cd fix-disk
 
 2. **Make the script executable:**
 ```bash
-chmod +x fix-disk.sh
+chmod +x fixpart.sh
 ```
 
 3. **Run as root:**
 ```bash
-sudo ./fix-disk.sh
+sudo ./fixpart.sh
 ```
 
 ## 💻 Usage
 
 ### Basic Execution
 ```bash
-sudo ./fix-disk.sh
+sudo ./fixpart.sh
 ```
 
 ### Script Flow
@@ -76,7 +76,7 @@ sudo ./fix-disk.sh
 ### Usage Example
 
 ```bash
-$ sudo ./fix-disk.sh
+$ sudo ./fixpart.sh
 
 ╔════════════════════════════════════════════╗
 ║  Script de Reparo de Partições - Ubuntu   ║
@@ -146,7 +146,7 @@ sudo umount -l /dev/sdX
 
 To see detailed logs:
 ```bash
-sudo ./fix-disk.sh 2>&1 | tee repair.log
+sudo ./fixpart.sh 2>&1 | tee repair.log
 ```
 
 ## 🤝 Contributing
