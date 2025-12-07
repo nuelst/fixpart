@@ -1,0 +1,10 @@
+fixpart (1.0.0-1) jammy; urgency=medium
+
+  * Initial release
+  * Automatic partition repair tool
+  * Supports NTFS, EXT2/3/4, exFAT, FAT32
+  * Colorful and user-friendly interface
+  * Automatic filesystem detection
+
+ -- Manuel dos Santos <manueds@outlook.pt>  Sat, 07 Dec 2024 19:50:00 +0000
+

@@ -40,10 +40,36 @@ missing codepage or helper program, or other error"
 
 ## 🚀 Installation
 
+### Option 1: Install via PPA (Ubuntu/Debian) - Recommended
+
+```bash
+# Add PPA (after publishing)
+sudo add-apt-repository ppa:seu-usuario/fixpart
+sudo apt-get update
+
+# Install
+sudo apt-get install fixpart
+
+# Run
+sudo fixpart
+```
+
+### Option 2: Install via Snap
+
+```bash
+# Install
+sudo snap install fixpart
+
+# Run
+sudo fixpart
+```
+
+### Option 3: Manual Installation
+
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/fix-disk.git
-cd fix-disk
+git clone https://github.com/nuelst/fixpart.git
+cd fixpart
 ```
 
 2. **Make the script executable:**
@@ -54,6 +80,17 @@ chmod +x fixpart.sh
 3. **Run as root:**
 ```bash
 sudo ./fixpart.sh
+```
+
+### Option 4: Install from .deb package
+
+```bash
+# Build package
+make deb
+
+# Install
+sudo dpkg -i build/fixpart_1.0.0_all.deb
+sudo apt-get install -f  # Install dependencies if needed
 ```
 
 ## 💻 Usage
